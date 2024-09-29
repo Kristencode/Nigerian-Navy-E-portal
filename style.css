@@ -116,12 +116,17 @@ button:hover{
 }
 
 footer{
-    background-color: #03037a;
-    padding: 10px;
-   
-}
+    
+        background-color: black;
+        position: relative;
+        height: 100px;
+        clear: both ;}
+
 
 footer p{
     color: white;
     font-size: larger;
+}
+body{
+    height: 100%;
 }
