@@ -6,7 +6,11 @@
 body{
     font-family: sans-serif;
 }
-
+ 
+.container{
+    position: relative;
+  min-height: 100vh;
+}
 
 .nav{
     height: 100px;
@@ -119,17 +123,24 @@ button:hover{
 footer{
     
         background-color: black;
-        position: relative;
-        height: 100px;
-        clear: both ;}
+        clear: both ;
+        position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+    
+    
+    }
 
 
 footer p{
     color: white;
     font-size: larger;
+
 }
 
 body{
+    height: 100%;
     height: 100%;
 }
 
@@ -139,10 +150,10 @@ body{
     body {
       /* background-color: #0e3591; */
       width: 100%;
+      height: 100%;
 
     }
 
-    
 
     .nav{
       width: 100%;
@@ -182,10 +193,8 @@ body{
   }
 
 
-
-
-    .main{ width: 100%;
-        margin-top: 20%;
+        
+        
     }
 
  .mid{
@@ -224,6 +233,9 @@ footer{
     text-align: center;
     font-size: 15px;
     font-weight: bold;
+    position: absolute;
+     bottom: 0;
+     width: 100%;
     }
 
   
