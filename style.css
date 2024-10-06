@@ -6,6 +6,8 @@
 body{
     font-family: sans-serif;
 }
+
+
 .nav{
     height: 100px;
     width: 100%;
@@ -54,7 +56,6 @@ li:hover{
     height: 110px;
     width: 550px;
     background-color: bisque;
-    margin-top: 0px;
     margin-top: 50px;
 }
 
@@ -127,6 +128,92 @@ footer p{
     color: white;
     font-size: larger;
 }
+
 body{
     height: 100%;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    body {
+      /* background-color: #0e3591; */
+      width: 100%;
+
+    }
+
+    
+
+    .nav{
+      width: 100%;
+      background-color: #0e3591;
+      color: aliceblue;
+
+    }
+
+    .nav img{
+        height: 90px;
+
+    }
+  
+
+  .nav ul{
+    margin: none;
+   margin-right: 20px;
+   width: 100%;
+
+  }
+
+  .nav li{
+    margin: 5px;
+    font-size: x-large;
+  }
+
+ #none{
+  color: white;
+  display: none;
+    
+  }
+
+
+
+
+    .main{ width: 100%;
+        margin-top: 20px;
+    }
+
+ .mid{
+    width: 100%;
+
+ }
+
+
+    .main .mid .image{
+       display: none;
+    }
+             
+    button{
+        width: 200px;
+        height: 45px;
+        color: white;
+        background-color: #0e3591;
+        border: none;
+
+    }
+
+
+p{
+    font-size: large;
+}
+
+
+footer{
+    display: flex;
+    background-color: #03037a;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    }
+
+  
 }
