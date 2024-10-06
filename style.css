@@ -167,7 +167,9 @@ body{
 
     }
   
-
+.main{
+    margin-top: 0;
+}
   .nav ul{
     margin: none;
    margin-right: 20px;
@@ -193,9 +195,6 @@ body{
   }
 
 
-        
-        
-    }
 
  .mid{
     width: 100%;
@@ -206,13 +205,16 @@ body{
     .main .mid .image{
        display: none;
     }
+
+    .mid p{
+        margin-top: -10px;
+    }
              
-    button{
-        width: 200px;
-        height: 45px; 
+    button{ 
         color: white;
         background-color: #0e3591;
-        border: none;
+        margin-top: -10px;
+
 
     }
 
