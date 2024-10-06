@@ -169,6 +169,12 @@ body{
     font-size: x-large;
   }
 
+  li:hover{
+    color:black;
+    text-align: center;
+   border-bottom: rgb(255, 255, 255) 2px solid;
+}
+
  #none{
   color: white;
   display: none;
@@ -179,7 +185,7 @@ body{
 
 
     .main{ width: 100%;
-        margin-top: 20px;
+        margin-top: 20%;
     }
 
  .mid{
@@ -201,6 +207,11 @@ body{
 
     }
 
+    button:hover{
+        background-color:  rgba(8, 7, 7, 0.192);
+        color: #03037a;
+    }
+    
 
 p{
     font-size: large;
