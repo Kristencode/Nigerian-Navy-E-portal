@@ -169,7 +169,12 @@ body{
   
 .main{
     margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
   .nav ul{
     margin: none;
    margin-right: 20px;
@@ -213,7 +218,7 @@ body{
     button{ 
         color: white;
         background-color: #0e3591;
-        margin-top: -10px;
+       
 
 
     }
@@ -226,6 +231,10 @@ body{
 
 p{
     font-size: large;
+}
+
+h1{
+    font-size:large;
 }
 
 
