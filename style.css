@@ -222,6 +222,7 @@ body{
     .mid p{
         margin-top: 10%;
         font-size: 12px;
+        line-height: 17px;
     }
              
     button{ 
@@ -251,6 +252,7 @@ p{
 h1{
     font-size:large;
     margin-top: -5%;
+    line-height: 25px;
 }
 
 
